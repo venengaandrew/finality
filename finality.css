@@ -92,9 +92,9 @@
 	background: #0033dc;
 }
 
-/*Red Selector*/
+/*Blue Selector*/
 .navMenuOption:hover {
-	background: #790101eb !important;
+	background: #010179eb !important;
 	color: white;
 	padding-left: 15% !important;
 	font-weight: 700 !important;
@@ -221,7 +221,7 @@
 }
 
 .css-77wcaa {
-	background-color: rgba(48, 6, 6, 0.26);
+	background-color: rgba(6, 6, 48, 0.26);
 }
 
 .css-195jjve {
@@ -233,11 +233,11 @@
 }
 
 .css-1jmiiw3 .MuiDataGrid-row.Mui-selected {
-	background-color: rgba(220, 0, 0, 0.2);
+	background-color: rgba(0, 0, 220, 0.2);
 }
 
 .css-1jmiiw3 .MuiDataGrid-row.Mui-selected:hover {
-	background-color: rgba(220, 0, 0, 0.28);
+	background-color: rgba(0, 0, 220, 0.28);
 }
 
 #dashboardPage .listItemIcon.material-icons.notifications {
@@ -325,7 +325,7 @@ progress::-webkit-progress-value {
 }
 
 .defaultCardBackground1 {
-	background-color: #5c0000;
+	background-color: #00005c;
 }
 
 .defaultCardBackground2 {
@@ -337,7 +337,7 @@ progress::-webkit-progress-value {
 }
 
 .defaultCardBackground4 {
-	background-color: #5c1c1c;
+	background-color: #1c1c5c;
 }
 
 .defaultCardBackground5 {
@@ -406,11 +406,11 @@ progress::-webkit-progress-value {
 }
 
 .emby-checkbox:checked+span+.checkboxOutline {
-	border-color: #8a1313;
+	border-color: #13138a;
 }
 
 .emby-checkbox:focus:not(:checked)+span+.checkboxOutline {
-	border-color: #7c0909;
+	border-color: #09097c;
 }
 
 .itemProgressBarForeground-recording {
@@ -443,7 +443,7 @@ progress::-webkit-progress-value {
 }
 
 .programCell-sports {
-	background: #ab3939 !important;
+	background: #3939ab !important;
 }
 
 .programCell-movie {
@@ -680,7 +680,7 @@ progress::-webkit-progress-value {
 }
 
 .layout-desktop #indexPage .raised:hover {
-	background: #a002029e;
+	background: #02029e9e;
 	border: 2px solid white;
 	border-radius: 0.5em;
 	color: white;
@@ -786,7 +786,7 @@ progress::-webkit-progress-value {
 
 /* Apply progress bar gradient */
 .itemProgressBarForeground {
-	background: linear-gradient(to right, rgba(0, 0, 0, 1) 0%, rgba(255, 0, 0, 1) 100%);
+	background: linear-gradient(to right, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 255, 1) 100%);
 }
 
 .layout-desktop .itemProgressBar {
@@ -797,7 +797,7 @@ progress::-webkit-progress-value {
 }
 
 .playbackProgress {
-	color: linear-gradient(to right, rgba(0, 0, 0, 1) 0%, rgba(255, 0, 0, 1) 100%);
+	color: linear-gradient(to right, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 255, 1) 100%);
 	background-color: #000 !important;
 	z-index: 1000;
 }
@@ -1904,8 +1904,6 @@ body {
 	align-items: center;
 	white-space: normal;
 	transition: none !important;
-	transition-behavior: ;
-	transition-behavior: ;
 	position: fixed;
 	top: 5.15em;
 	left: calc(100vw - 6.2em);
@@ -3168,7 +3166,7 @@ body {
 }
 
 .mainDetailButtons.focuscontainer-x .button-flat {
-	background: linear-gradient(0deg, rgb(99.608% 36.471% 36.471% / 0.38) 0%, rgb(99.655% 32.054% 32.054% / 0.382421875) 6.25%, rgb(99.7% 27.923% 27.923% / 0.3846875) 12.5%, rgb(99.741% 24.076% 24.076% / 0.386796875) 18.75%, rgb(99.779% 20.515% 20.515% / 0.38875000000000004) 25%, rgb(99.815% 17.238% 17.238% / 0.390546875) 31.25%, rgb(99.847% 14.246% 14.246% / 0.3921875) 37.5%, rgb(99.876% 11.54% 11.54% / 0.393671875) 43.75%, rgb(99.902% 9.118% 9.118% / 0.395) 50%, rgb(99.925% 6.981% 6.981% / 0.396171875) 56.25%, rgb(99.945% 5.129% 5.129% / 0.3971875) 62.5%, rgb(99.962% 3.562% 3.562% / 0.398046875) 68.75%, rgb(99.975% 2.279% 2.279% / 0.39875000000000005) 75%, rgb(99.986% 1.282% 1.282% / 0.399296875) 81.25%, rgb(99.994% 0.57% 0.57% / 0.39968750000000003) 87.5%, rgb(99.998% 0.142% 0.142% / 0.39992187500000004) 93.75%, rgb(100% 0% 0% / 0.4) 100%);
+	background: linear-gradient(0deg, rgb(36.471% 36.471% 99.608% / 0.38) 0%, rgb(32.054% 32.054% 99.655% / 0.382421875) 6.25%, rgb(27.923% 27.923% 99.7% / 0.3846875) 12.5%, rgb(24.076% 24.076% 99.741% / 0.386796875) 18.75%, rgb(20.515% 20.515% 99.779% / 0.38875000000000004) 25%, rgb(17.238% 17.238% 99.815% / 0.390546875) 31.25%, rgb(14.246% 14.246% 99.847% / 0.3921875) 37.5%, rgb(11.54% 11.54% 99.876% / 0.393671875) 43.75%, rgb(9.118% 9.118% 99.902% / 0.395) 50%, rgb(6.981% 6.981% 99.925% / 0.396171875) 56.25%, rgb(5.129% 5.129% 99.945% / 0.3971875) 62.5%, rgb(3.562% 3.562% 99.962% / 0.398046875) 68.75%, rgb(2.279% 2.279% 99.975% / 0.39875000000000005) 75%, rgb(1.282% 1.282% 99.986% / 0.399296875) 81.25%, rgb(0.57% 0.57% 99.994% / 0.39968750000000003) 87.5%, rgb(0.142% 0.142% 99.998% / 0.39992187500000004) 93.75%, rgb(0% 0% 100% / 0.4) 100%);
 	height: 2em;
 	color: #fff;
 	width: 2.5em;
